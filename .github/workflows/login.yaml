@@ -3,7 +3,7 @@ name: Run Login Script
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 0 */16 * *"  # 每16天运行一次，可以根据需求调整时间
+    - cron: "20 0 16 * *"  # 每月16日运行一次，可以根据需求调整时间
   push:
     branches:
       - main
